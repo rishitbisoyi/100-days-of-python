@@ -26,9 +26,9 @@ while len(guessed_states) < len(all_states):
     if answer_state is None:
         break
     answer_state = answer_state.lower().strip()
-    if answer_state == "Exit":
+    if answer_state == "exit":
         missing_states = [
-            state
+            state.title()
             for state in all_states
             if state not in guessed_states
         ]
@@ -44,7 +44,7 @@ while len(guessed_states) < len(all_states):
         y = int(state_data.y.iloc[0])
         writer.goto(x, y)
         writer.write(
-            answer_state,
+            answer_state.title(),
             align="center",
             font=("Arial", 10, "bold")
         )
