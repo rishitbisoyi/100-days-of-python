@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd # type: ignore
 
 data = pd.read_csv("26_ListComprehension/nato_phonetic_alphabet.csv")
 phonetic_dict = {row.letter: row.code for (index, row) in data.iterrows()}
