@@ -1,4 +1,4 @@
-# 🐍 100 Days of Python – Projects by Rishit
+# 100 Days of Python – Projects by Rishit
 
 This repository contains projects from my ongoing Python learning journey through
 [Dr. Angela Yu's 100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/) on Udemy.
